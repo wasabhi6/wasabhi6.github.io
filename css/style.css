@@ -64,7 +64,7 @@
 
 #nav-bar ul li a:hover
 {
-    color: #007bff!important;
+    color: #215e4a!important;
 }
 
 .navbar-toggler
@@ -93,7 +93,7 @@
     width: 100vw;
     max-width: 100%;
     height: 100%;
-    background: url(/images/filler.png) center center/cover;
+    background: url(/images/WallpaperDog-20398902.jpg) center center/cover;
 }
 
 .flex {
@@ -105,28 +105,28 @@
 
 .landing-box {
     position: relative;
-    top: -5%;
+    top: -20%;
 }
 
 .landing-text{
     font-size: 32pt;
-    color: #fff;
+    color: rgb(41, 99, 75);
     z-index: 0;
     font-family: 'Raleway';
 }
 
 .highlight {
-    color: #00EEEE;
-    font-weight: 800;
+    color: rgb(24, 98, 67);
+    font-weight: 1000;
 }
 
 .landing-button {
     z-index: 0;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid rgb(229, 147, 175);
+    color: rgb(41, 99, 75);
     box-sizing: inherit;
     display: inline-block;
-    font-size: 16pt;
+    font-size: 18pt;
     cursor: pointer;
     padding: 12px 30px 12px 30px;
     font-family: Raleway;
@@ -138,8 +138,8 @@
 
 .landing-button:hover {
     color: #000;
-    border: 2px solid #00EEEE;
-    background: #00EEEE;
+    border: 2px solid #ffffff;
+    background: #5b3b4bd1;
     text-decoration: inherit;
 }
 
@@ -295,7 +295,7 @@ span.anchor {
 #projects h1
 {
     text-align: center;
-    color: #444649 !important;
+    color: rgb(41, 99, 75) !important;
     padding-bottom: 10px;
     font-weight: 600;
 }
@@ -305,7 +305,7 @@ span.anchor {
 #projects h1::after
 {
     content: '';
-    background: #444649;
+    background: #c89b9b;
     display: block;
     height: 3px;
     width: 120px;
@@ -335,8 +335,8 @@ span.anchor {
 }
 
 .project-view .custom-btn{
-    color: #192bc2;
-    border: 3px solid #192bc2;
+    color: rgba(251,197,195,255);
+    border: 3px solid rgb(41, 99, 75);
     width: 180px;
     height: 50px;
     font-size: 18px;
@@ -351,7 +351,7 @@ span.anchor {
 
 .project-view .custom-btn:hover{
     color: #fff;
-    background: #0066FF;
+    background: rgb(41, 99, 75);
 }
 
 .view-code{
@@ -458,13 +458,13 @@ span.anchor {
 {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #000122;
+    background-color: #c89b9b;
 }
 
-#about h1
+#about h1 
 {
     text-align: center;
-    color: #efefef !important;
+    color: rgb(24, 98, 67) !important;
     font-weight: 600;
     padding-bottom: 10px;
 }
@@ -472,7 +472,7 @@ span.anchor {
 #about h1::after
 {
     content: '';
-    background: #efefef;
+    background: rgb(41, 99, 75);
     display: block;
     height: 3px;
     width: 120px;
@@ -480,10 +480,10 @@ span.anchor {
 }
 
 #bio-container p{
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    color: #ffffff;
+    /* font-weight: 300; */
+    color: rgb(41, 99, 75);
 }
 
 .section-title
@@ -499,7 +499,7 @@ span.anchor {
     width: 100%;
     height: auto;
     box-shadow: 8px 15px 25px rgba(0,0,0,.2);
-    background: #fff;
+    background: #f2d4d2;
 }
 
 .skill-card p{
@@ -512,7 +512,7 @@ span.anchor {
 }
 
 .text-light-blue {
-    color: rgba(34, 167, 240, 1);
+    color: rgb(41, 99, 75);
 }
 
 .photo-card{
@@ -524,7 +524,7 @@ span.anchor {
 }
 
 .photo-card-back-details h2{
-    color: #efefef;
+    color: #cf7445!important;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -546,10 +546,11 @@ span.anchor {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #F5F5F5;
+    background: rgba(251,210,204,255);
     backface-visibility: hidden;
     transform: rotateX(180deg);
     transition: 0.5s;
+    color: #f2d4d2;
 }
 
 .photo-card:hover .photo-card-back{
@@ -569,11 +570,11 @@ span.anchor {
 
 .photo-card-back-details h2{
     font-size: 36px;
-    color: #000000;
+    color: #b95628!important;
 }
 
 .photo-card-back-details h2 span{
-    color: #00BFFF;
+    color: #cf8664!important;
     font-weight: 600; 
     font-size: 24px;
 }
@@ -618,30 +619,87 @@ span.anchor {
     background: #1da1f2
 } */
 
+#interests h1
+{
+    color: rgb(24, 98, 67);
+}
 /* ------ Work together section----*/
+.abhi
+{
+    background-color: #f2d4d2;
+}
+
+#dog-anchor 
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #c89b9b;
+}
+
+#dog-anchor h1 
+{
+    text-align: center;
+    color: rgb(24, 98, 67) !important;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#dog-anchor h1::after
+{
+    content: '';
+    background: rgb(41, 99, 75);
+    display: block;
+    height: 3px;
+    width: 120px;
+    margin:20px auto 5px;
+}
+
+#bio-container p{
+    font-size: 1.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(41, 99, 75);
+}
+
+.section-title
+{
+    padding-top: 2.0em;
+    font-size: 2.5em;
+    font-weight: 700;
+}
 
 #work-together h1
 {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 10px;
-    color: #444649;
+    color: rgb(24, 98, 67);
     font-weight: 600;
 }
 
-#work-together h1::after
+#work-together h2
 {
-    content: '';
-    background: #444649;
-    display: block;
-    height: 3px;
-    width: 120px;
-    margin: 20px auto 5px;
+    color: rgb(24, 98, 67);
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 15px;
 }
-
+#work-together h3
+{
+    color: rgb(24, 98, 67);
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+#work-together h4
+{
+    color: rgb(24, 98, 67);
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
 .why-work-icons
 {
-    font-size: 4em;
+    font-size: 5em;
 }
 
 .why-work-icons.fas.fa-microchip, .why-work-icons.fas.fa-book-open
@@ -654,6 +712,7 @@ span.anchor {
     font-family: 'Roboto', sans-serif;
     font-size: 31px;
     font-weight: 600;
+    color: rgb(24, 98, 67);
 }
 
 #work-together .fa-book-open
@@ -666,7 +725,7 @@ span.anchor {
 
 #contact h1
 {
-    color: #444649;
+    color: rgb(24, 98, 67);
     text-align:center;
     font-weight: 600;
     padding-bottom: 10px;
@@ -675,7 +734,7 @@ span.anchor {
 #contact h1::after
 {
     content: '';
-    background: #444649;
+    background: rgb(24, 98, 67);
     display: block;
     height: 3px;
     width: 120px;
@@ -684,7 +743,7 @@ span.anchor {
 
 #contact
 {
-    background: #efefef;
+    background: #c89b9b;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #777;
@@ -718,19 +777,19 @@ span.anchor {
 .contact-info .fas
 {
     margin: 10px;
-    color: #007bff;
+    color: rgb(24, 98, 67);
 }
 
 .contact-info .fa
 {
     margin: 10px;
-    color: #007bff;
+    color: rgb(24, 98, 67);
 }
 
 .contact-info .far
 {
     margin: 10px;
-    color: #007bff;
+    color: rgb(24, 98, 67);
 }
 
 
@@ -743,7 +802,7 @@ span.anchor {
 
 #footer
 {
-    background: #272727;
+    background: #fad2ce;
     height: auto;
     margin: auto;
     color: white;
@@ -776,15 +835,15 @@ span.anchor {
     height: 50px;
     margin: 0px 10px;
     border-radius: 100%;
-    background: rgba(63, 195, 128, 1);
+    background: rgb(24, 98, 67);
     transition: .5s;
 }
 
 .footer-social-icons ul li:hover{
-    background: #32CD32;
-    box-shadow: 0 0 10px rgba(0, 230, 64, 1),
-                0 0 20px rgba(0, 230, 64, 1),
-                0 0 30px rgba(0, 230, 64, 1);
+    background: rgb(24, 98, 67);
+    box-shadow: 0 0 10px rgb(24, 98, 67),
+                0 0 20px rgb(24, 98, 67),
+                0 0 30px rgb(24, 98, 67);
 }
 
 .footer-social-icons ul li a{
@@ -800,23 +859,26 @@ span.anchor {
 .container.text-center {
     text-align: center;
     padding-top: 10px;
+    color: rgb(24, 98, 67);
 }
 
 .footer-menu-one ul {
     margin: 0px;
     padding: 0px !important;
+    color: rgb(24, 98, 67);
 }
 
 .footer-menu-one ul li{
     display: inline-block;
     margin: 0px 20px;
+    color: rgb(24, 98, 67);
 }
 
 .footer-menu-one ul li a{
     font-family: arial;
     font-size: 14px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(24, 98, 67);
     text-transform: uppercase;
     text-decoration: none;
     outline: none;
@@ -824,7 +886,7 @@ span.anchor {
 
 .footer-menu-one ul li a:hover{
     transition: 0.5s;
-    color: #32CD32;
+    color: rgb(24, 98, 67);
 }
 
 
